@@ -16,22 +16,17 @@ https://github.com/thierryc/privacy-policy-gh-pages
 
 Clone [this repository](https://github.com/thierryc/privacy-policy-gh-pages) to your local machine and run `npm install` to install the dependencies.
 
-### Github CLI
-
-```bash
-gh repo clone thierryc/privacy-policy-gh-pages
-```
 
 ### Git clone SSH
 
 ```bash
-git clone git@github.com:thierryc/privacy-policy-gh-pages.git
+git clone git@github.com:thierryc/privacy-policy-gh-pages.git _your_app_name__
 ```
 
 ### Git clone HTTPS
 
 ```bash
-git clone https://github.com/thierryc/privacy-policy-gh-pages.git
+git clone https://github.com/thierryc/privacy-policy-gh-pages.git _your_app_name__
 ```
 
 ## Edit Package JSON file
