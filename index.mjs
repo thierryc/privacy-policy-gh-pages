@@ -28,7 +28,10 @@ try {
     const content = marked.parse(markdown);
     const html = template(fs.readFileSync('./src/index.html', 'utf8'))({content});
     process.stdout.write(html);
+
   });
+
+
 
   
 } catch (err) {

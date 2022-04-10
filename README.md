@@ -70,6 +70,14 @@ Then run `npm run deploy` to deploy the app to Github Pages.
 
 Run `npm run watch` to rebuild the page at any modification.
 
+## Github Pages URL
+
+### this repository example
+
+https://thierryc.github.io/privacy-policy-gh-pages/
+
+https://__github.user.slug__}.github.io/__databases.package.name__/}
+
 ## Disclaimer
 
 Note: The provided MD file is an example of a basic Privacy Policies Page for a free application. I have no legal expertise.
