@@ -1,5 +1,5 @@
 {
-  "appName": "_Aplication_Name_",
+  "name": "_Aplication_Name_",
   "devices": ["iPhone", "iPad"],
   "platforms": ["iOS"],
   "appVersion": "1.0.0",
