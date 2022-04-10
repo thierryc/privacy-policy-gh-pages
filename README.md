@@ -12,24 +12,45 @@ https://github.com/thierryc/privacy-policy-gh-pages
 
 ## How it works
 
+## Clone the privacy policy repository
+
 Clone [this repository](https://github.com/thierryc/privacy-policy-gh-pages) to your local machine and run `npm install` to install the dependencies.
+
+### Github CLI
+
+```bash
+gh repo clone thierryc/privacy-policy-gh-pages
+```
+
+### Git clone SSH
+
+```bash
+git clone git@github.com:thierryc/privacy-policy-gh-pages.git
+```
+
+### Git clone HTTPS
+
+```bash
+git clone https://github.com/thierryc/privacy-policy-gh-pages.git
+```
+
+## Edit Package JSON file
 
 Edit the `./package.json` and change the name of the author, the email, the version, and any other personal information.
 
 ```json
-
 "author": {
     "name": "_author_mame_",
     "email": "author-email@email.com",
     "url": "https://author-website.com"
   },
-
 ```
+
+## Edit Application JSON file
 
 Rename `application.template.json` to `application.json` and edit it to your needs.
 
 ```json
-
 "appName": "_Aplication_Name_",
 "devices": ["iPhone", "iPad"],
 "platforms": ["iOS"],
@@ -39,6 +60,8 @@ Rename `application.template.json` to `application.json` and edit it to your nee
 }
 
 ```
+
+## Edit the Privacy policies
 
 Edit the Privacy policies to add your application policies.
 
